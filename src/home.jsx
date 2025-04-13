@@ -39,6 +39,7 @@ const Home = () => {
               />
             </h1>
             <p className="text-gray-300 mb-6 text-[32px]">A full stack software developer</p>
+          
             <button className="mt-10 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-black rounded-md font-black" onClick={()=>navigate('/projects')}>
               MY WORK
             </button>

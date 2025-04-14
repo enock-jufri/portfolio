@@ -7,8 +7,8 @@ const Project = () => {
             description: "A sleek, secure platform for managing personal and group finances. " +
                 "Users can check balances, transfer funds, apply for loans, and track savings — all in one place. " +
                 "Designed for simplicity, speed, and mobile-first access.",
-            image1: "public/modern bank1.png",
-            image2: "public/modern bank2.png",
+            image1: "/modern bank1.png",
+            image2: "/modern bank2.png",
             github: "https://github.com/enock-jufri/bank_ui",
             website: "https://bank-ui-delta.vercel.app/"
         },
@@ -27,8 +27,8 @@ const Project = () => {
             synopsis: "Read the latest news articles on the go",
             description: "Stay informed with the latest headlines, in-depth stories, and real-time updates from around the world." +
                 "A modern news platform designed for clarity, speed, and reliability.",
-            image1: "public/ekl1.png",
-            image2: "public/ekl2.png ",
+            image1: "/ekl1.png",
+            image2: "/ekl2.png ",
             github: "https://github.com/enock-jufri/EKL-news",
             website: "https://ekl-news.vercel.app/"
         },
@@ -37,8 +37,8 @@ const Project = () => {
             synopsis: "Browse and download the latest movies",
             description: "Discover, stream, and download your favorite movies effortlessly. " +
                 "MovieExplorer offers a sleek, user-friendly interface to explore films by genre, rating, or release — all in one place.",
-            image1: "public/mv1.png ",
-            image2: "public/mv2.png",
+            image1: "/mv1.png ",
+            image2: "/mv2.png",
             github: "https://github.com/enock-jufri/movieExplorer",
             website: "https://movie-explorer-sepia.vercel.app/"
         },

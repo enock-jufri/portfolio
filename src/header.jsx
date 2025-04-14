@@ -69,13 +69,7 @@ const Header = () => {
           </li>
         </ul>
 
-        {/* Dark Mode Toggle */}
-        <button
-          onClick={() => setDarkMode(!darkMode)}
-          className="text-white p-2 rounded-full transition-colors hover:bg-gray-700"
-        >
-          {darkMode ? <Sun size={24} /> : <Moon size={24} />}
-        </button>
+       
       </nav>
     </header>
   );

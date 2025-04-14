@@ -42,55 +42,42 @@ const Project = () => {
             github: "https://github.com/enock-jufri/movieExplorer",
             website: "https://movie-explorer-sepia.vercel.app/"
         },
-
-
     ]
     return (
-
-        <div className=" grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 p-4">
             {
                 projects.map((Project, index) => (
                     <div key={index} className="p-4 rounded-2xl bg-gray-800 shadow-md">
-                        <div className="h-5 text-xl rounded w-1/2 mb-1 font-bold">
-                            {Project.name}
-                        </div>
-                        <div className="h-4 text-lg rounded w-1/2 mb-3">{Project.synopsis}</div>
-                        <div className="flex h-48 rounded-xl mb-4 gap-5">
-                            <div className="bg-gray-700 w-1/2 rounded-xl" >
+                        <div className="text-xl font-bold mb-1">{Project.name}</div>
+                        <div className="text-lg mb-3">{Project.synopsis}</div>
+                        <div className="flex flex-col sm:flex-row h-auto sm:h-48 rounded-xl mb-4 gap-5">
+                            <div className="bg-gray-700 w-full sm:w-1/2 rounded-xl">
                                 <img
                                     className="object-cover rounded-xl w-full h-full"
                                     src={Project.image1}
                                     alt="" />
                             </div>
-                            <div className="bg-gray-700 w-1/2 rounded-xl" >
+                            <div className="bg-gray-700 w-full sm:w-1/2 rounded-xl">
                                 <img
                                     className="object-cover rounded-xl w-full h-full"
                                     src={Project.image2}
                                     alt="" />
                             </div>
-
                         </div>
-                        <div className="flex gap-2 h-10 rounded mb-2">
-                            <div><SiPython className="text-[#3776AB] text-4xl" size={30} /></div>
-                            <div><SiReact className="animate-spin text-[#61DAFB] text-5xl"
-                                style={{ animationDuration: "3s" }} size={30} /></div>
-                            <div><SiJavascript className="text-[#F7DF1E] text-4xl" size={30} /></div>
-
+                        <div className="flex gap-2 mb-2">
+                            <SiPython className="text-[#3776AB] text-3xl sm:text-4xl" />
+                            <SiReact className="animate-spin text-[#61DAFB] text-4xl sm:text-5xl" style={{ animationDuration: "3s" }} />
+                            <SiJavascript className="text-[#F7DF1E] text-3xl sm:text-4xl" />
                         </div>
-                        <div className="h-10 text-gray-300 rounded mb-4">
-                            {Project.description}
-                        </div>
-                        <div className="flex rounded w-1/2 mb-0 gap-5 text-sm">
+                        <div className="text-gray-300 mb-4">{Project.description}</div>
+                        <div className="flex flex-col sm:flex-row gap-2 sm:gap-5 text-sm">
                             <a className="text-blue-500 hover:text-blue-600" href={Project.website}>Website</a>
                             <a className="text-blue-500 hover:text-blue-600" href={Project.github}>Github repo</a>
                         </div>
                     </div>
-
                 ))
             }
         </div>
-
-
     )
 }
 

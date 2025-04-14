@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "./header";
+import { Analytics } from "@vercel/analytics/react"; // Import Analytics
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className="pt-20 px-4"> {/* Push content below the header */}
         <Outlet />
       </div>
+      <Analytics /> {/* Add Analytics here */}
     </div>
   );
 };

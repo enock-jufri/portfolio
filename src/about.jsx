@@ -20,11 +20,11 @@ const About = () => {
                         whether it’s on the keyboard or the controller.</p>
                 </div>
                 <div className="flex gap-4 mt-10 mb-12 ">
-                    <img src="/src/assets/Tech Stack Logos (1).png" alt="" />
-                    <img src="/src/assets/Tech Stack Logos (2).png" alt="" />
-                    <img src="/src/assets/Tech Stack Logos (3).png" alt="" />
-                    <img src="/src/assets/Tech Stack Logos (4).png" alt="" />
-                    <img src="/src/assets/Tech Stack Logos (5).png" alt="" />
+                    <img src="public/Tech Stack Logos (1).png" alt="" />
+                    <img src="public/Tech Stack Logos (2).png" alt="" />
+                    <img src="public/Tech Stack Logos (3).png" alt="" />
+                    <img src="public/Tech Stack Logos (4).png" alt="" />
+                    <img src="public/Tech Stack Logos (5).png" alt="" />
                 </div>
                 <a
                     href="/Enock cv.pdf"

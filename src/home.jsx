@@ -6,7 +6,7 @@ import { FaXTwitter, FaGithub, FaLinkedin } from 'react-icons/fa6'; // X (Twitte
 const Home = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col md:flex-row items-center justify-start md:justify-center max-h-screen p-6 bg-[#0F172A] text-white">
+    <div className="flex flex-col md:flex-row items-center justify-start md:justify-center p-6 bg-[#0F172A] text-white">
       {/* Profile Image */}
       <div className="w-full md:w-[50%] flex justify-center mb-4 md:mb-0">
         <div className="w-full h-[50vh] md:w-[840px] md:h-[840px] rounded-xl flex justify-center items-center bg-gray-800">

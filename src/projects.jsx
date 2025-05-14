@@ -43,7 +43,6 @@ const Project = () => {
   return (
     <main className="min-h-screen bg-[#0F172A] py-12 px-4">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold text-blue-400 mb-10 text-center">Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-[#1E293B] rounded-2xl shadow-lg p-6 flex flex-col">

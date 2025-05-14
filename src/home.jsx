@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <main className="bg-[#0F172A] text-white min-h-screen flex flex-col items-center px-4 py-8">
+    <main className="bg-[#0F172A] text-white min-h-screen flex flex-col items-center px-4 py-8 overflow-x-hidden">
       {/* Hero Section */}
       <section className="w-full max-w-5xl flex flex-col md:flex-row items-center justify-center gap-10 py-12">
         {/* Profile Image */}
@@ -65,7 +65,7 @@ const Home = () => {
             </a>
           </div>
           <button
-            className="mt-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-black rounded-md font-bold shadow transition"
+            className="mt-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-bold shadow transition"
             onClick={() => navigate('/projects')}
           >
             View My Work
@@ -94,7 +94,7 @@ const Home = () => {
             <a
               href="/Enock cv.pdf"
               download
-              className="inline-block bg-blue-600 text-black font-bold px-5 py-2 rounded hover:bg-blue-700 transition"
+              className="inline-block bg-blue-600 text-white font-bold px-5 py-2 rounded hover:bg-blue-700 transition"
             >
               Download CV
             </a>

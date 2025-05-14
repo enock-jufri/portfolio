@@ -16,10 +16,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        'your_service_id', // Replace with your EmailJS service ID
-        'your_template_id', // Replace with your EmailJS template ID
+        'service_vzvypwa', 
+        'template_bexjqyt',
         formData,
-        'your_user_id' // Replace with your EmailJS user ID (or public key)
+        'RFa8I66ZzH7vn74lO'
       )
       .then(
         (response) => {
